@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for header */
+
+.container{
+    
+    margin-left: 60px;
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+.header{
+    display: flex;
+    gap: 550px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    width: 100%;
+    
+}
+.hleft-heading{
+    color: #131313;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    display: inline;
+}
+.nav > ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    margin-right: 130px;
+
+}
+.nav-list{
+    color: #424242;
+    list-style: none;
+    
+}
+  
+.nav-list a{
+    text-decoration: none;
+    color: #424242;
+} 
+/* for banner */
+.banner{
+    margin-top: 102px;
+    text-align: center;
+}
+.banner-heading{
+    font-size: 64px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.banner-para{
+    margin-bottom: 32px;
+}
